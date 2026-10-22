@@ -19,8 +19,6 @@ projet/
 │   ├── donnees.py     # exemple de l'énoncé, génération aléatoire, CSV
 │   ├── benchmark.py   # mesures de performances (100 à 100 000 colis)
 │   └── main.py        # menu interactif
-├── tests/
-│   └── test_livraisons.py
 ├── README.md
 └── rapport.pdf
 ```
@@ -30,7 +28,6 @@ projet/
 ```bash
 python3 src/main.py                       # menu interactif (démarre avec l'exemple de l'énoncé)
 python3 src/benchmark.py                  # mesures de performances
-python3 -m unittest discover tests        # tests unitaires
 ```
 
 Menu :
