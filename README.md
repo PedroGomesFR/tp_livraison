@@ -30,21 +30,6 @@ python3 src/main.py                       # menu interactif (démarre avec l'exe
 python3 src/benchmark.py                  # mesures de performances
 ```
 
-Menu :
-
-```
-===== GESTION DES LIVRAISONS =====
-1. Afficher les colis
-2. Ajouter un colis
-3. Rechercher un colis
-4. Organiser les colis (trier)
-5. Préparer un camion
-6. Afficher le chargement
-7. Afficher les statistiques
-8. Charger un jeu de données   (exemple, n colis aléatoires, ou CSV)
-0. Quitter
-```
-
 Format CSV accepté : `id,poids,valeur,priorite,destination` (poids entiers, priorité de 1 = faible à 5 = très urgente).
 
 ## Choix algorithmiques (résumé)
