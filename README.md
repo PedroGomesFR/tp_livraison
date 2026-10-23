@@ -44,3 +44,11 @@ Format CSV accepté : `id,poids,valeur,priorite,destination` (poids entiers, pri
 | Priorité | utilité = valeur × (1 + α·(priorité−1)/4), puis même sac à dos | — | — |
 
 Le détail (alternatives, justifications, mesures, questions de synthèse) est dans `rapport.pdf`.
+
+## Questions de synthèse
+
+1. **Choix le plus important** : la programmation dynamique pour remplir le camion. C'est la seule méthode qui trouve toujours la meilleure valeur en un temps raisonnable.
+2. **Problème avec des millions de colis** : la préparation du camion, qui utilise beaucoup de mémoire (nombre de colis × capacité) et devient lente. Le programme passe alors au glouton.
+3. **Vitesse ou mémoire** : la vitesse. Le dictionnaire et le cache des tris prennent plus de mémoire mais rendent la recherche et l'affichage immédiats.
+4. **Meilleure stratégie pour le camion ?** Non, la programmation dynamique est déjà optimale. Une autre méthode pourrait seulement être plus rapide.
+5. **En C** : mêmes algorithmes. Seule l'implémentation changerait (mémoire gérée à la main, table de hachage à écrire), et le programme serait plus rapide.
